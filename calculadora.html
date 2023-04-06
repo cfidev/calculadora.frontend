@@ -24,9 +24,56 @@
         />
         <!-- End Iconos de Font Awesome -->
 
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/calculadora.css" rel="stylesheet" />
     </head>
+
     <body>
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12 calculadora margin mt-5 col-md-6">
+                        
+                    <div class="justify-content-center m-1">
+                        
+                        <table class="table table-dark margin">
+                          
+                            <tr>
+                                <td colspan="4"><input type="text" name="visor" id="visor" class="col-xs-12 col-sm-12 col-md-12" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="button7" value="7" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button8" value="8" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button9" value="9" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button/" value="/" class="btn btn-info" onclick="" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="button4" value="4" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button5" value="5" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button6" value="6" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button*" value="*" class="btn btn-info" onclick=""/></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="button1" value="1" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button2" value="2" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button3" value="3" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button-" value="-" class="btn btn-info" onclick="" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="button" id="button0" value="0" class="btn btn-secondary" onclick=""/></td>
+                                <td><input type="button" id="button=" value="=" class="btn btn-info" onclick=""/></td>
+                                <td><input type="button" id="buttonC" value="C" class="btn btn-danger" onclick=""/></td>
+                                <td><input type="button" id="button+" value="+" class="btn btn-info" onclick=""/></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     <!-- script bootstrap -->
         <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
