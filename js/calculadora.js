@@ -1,6 +1,6 @@
 $(function() {
   let result = '';
-  let operacion = '';
+  let operation = '';
 
   $('.btn').click(function() {
     let buttonVal = $(this).val();
@@ -12,19 +12,19 @@ $(function() {
       switch(buttonVal) {
         case '+':
           result += ' + ';
-          operacion = '+';
+          operation = '+';
           break;
         case '-':
           result += ' - ';
-          operacion = '-';
+          operation = '-';
           break;
         case '*':
           result += ' * ';
-          operacion = '*';
+          operation = '*';
           break;
         case '/':
           result += ' / ';
-          operacion = '/';
+          operation = '/';
           break;
         case '=':
           result = eval(result);
