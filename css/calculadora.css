@@ -1,15 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .calculadora {
     background-color: rgb(23, 162, 184);
-        
-  }
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
 
-  .margin {
+.margin {
     padding: 1%;
     border-radius: 5px;
-  }
+}
 
-  .btn {
+#visor {
+ text-align: right;
+}
+
+.btn {
     width: 50px;
     height: 50px;
-    border-radius: 5px;
-  }
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    transform: translateY(2px);
+    transition: all 0.1s ease-in-out;
+}
+
+.btn:focus {
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    background-color: none;
+    outline: none;
+}
