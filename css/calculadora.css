@@ -1,15 +1,19 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #e6ffff;
 }
 .calculadora {
+    min-width:  287px ;
     background-color: rgb(23, 162, 184);
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
-
+.calculadoraTabla{
+    min-width:  287px ;
+}
 .margin {
-    padding: 1%;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -18,8 +22,6 @@ body{
 }
 
 .btn {
-    width: 50px;
-    height: 50px;
     border-radius: 8px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
